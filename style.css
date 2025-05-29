@@ -1,0 +1,159 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/1309764268/vector/fence-and-green-lawn-rural-landscape-background-vector-garden-backyard-with-wooden-hedge.jpg?s=612x612&w=0&k=20&c=BBkjcHwOQwBdRyHgXbb0iFtXTU26djYloUyLVv0SRM4=");
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+}
+.sun {
+  background-image: url("https://purepng.com/public/uploads/thumbnail/purepng.com-sunsunlightrayssolar-1411527182258fniha.png");
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  animation: sun 3s linear infinite;
+}
+@keyframes sun {
+  20% {
+    top: 20px;
+  }
+  40% {
+    top: 40px;
+  }
+  60% {
+    top: 60px;
+  }
+  80% {
+    top: 40px;
+  }
+  100% {
+    top: 20px;
+  }
+}
+.cloud1 {
+  background-image: url("https://www.tonytextures.com/wp-content/uploads/2022/05/Cloud-PNG-Cutout-Architecture-Photoshop_14.png");
+  background-size: cover;
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  width: 351px;
+  height: 216px;
+  animation: cloud1 5s linear infinite;
+}
+.cloud2 {
+  background-image: url("https://www.tonytextures.com/wp-content/uploads/2022/05/Cloud-PNG-Cutout-Architecture-Photoshop_14.png");
+  background-size: cover;
+  position: absolute;
+  top: 50px;
+  left: 900px;
+  width: 351px;
+  height: 216px;
+  animation: cloud2 5s linear infinite;
+}
+.cloud3 {
+  background-image: url("https://www.tonytextures.com/wp-content/uploads/2022/05/Cloud-PNG-Cutout-Architecture-Photoshop_14.png");
+  background-size: cover;
+  position: absolute;
+  top: 50px;
+  left: 1400px;
+  width: 351px;
+  height: 216px;
+  animation: cloud3 5s linear infinite;
+}
+@keyframes cloud1 {
+  25% {
+    left: 420px;
+  }
+  50% {
+    left: 400px;
+  }
+  75% {
+    left: 420px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+@keyframes cloud2 {
+  25% {
+    left: 920px;
+  }
+  50% {
+    left: 900px;
+  }
+  75% {
+    left: 920px;
+  }
+  100% {
+    left: 900px;
+  }
+}
+@keyframes cloud3 {
+  25% {
+    left: 1420px;
+  }
+  50% {
+    left: 1400px;
+  }
+  75% {
+    left: 1420px;
+  }
+  100% {
+    left: 1400px;
+  }
+}
+.ball {
+  background-image: url("https://png.pngtree.com/png-vector/20241229/ourmid/pngtree-football-or-soccer-ball-on-transparent-background-png-image_14972374.png");
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  left: 600px;
+  top: 830px;
+  animation: ball 7s linear infinite;
+}
+@keyframes ball {
+  16% {
+    left: 700px;
+    transform: rotate(180deg);
+  }
+  32% {
+    left: 800px;
+    transform: rotate(360deg);
+  }
+  48% {
+    left: 900px;
+    transform: rotate(540deg);
+  }
+  64% {
+    left: 800px;
+    transform: rotate(360deg);
+  }
+  80% {
+    left: 700px;
+    transform: rotate(180deg);
+  }
+  100% {
+    left: 600px;
+    transform: rotate(0deg);
+  }
+}
+.kid2{
+    background-image: url(./kid2.png);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 450px;
+    left: 770px;
+}
+.kid1{
+    background-image: url(./kid1.png);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 450px;
+    left: 330px;
+}
